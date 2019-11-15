@@ -1,0 +1,38 @@
+.jumbotron {
+  background-size: cover;
+  overflow:hidden;
+  background-image: url('img/drum2.jpg');
+  position: relative;
+  height: 100vh;
+  margin-top: -1px;
+  margin-bottom: 0px;
+}
+.jumbotron .container {
+  margin-top: -5px;
+  text-align: left;
+  position:relative;
+  z-index:2;
+  background:rgba(0,0,0,0.5);
+  padding:2rem;
+  border:1px solid rgba(0,0,0,0.1);
+  border-radius:3px;
+}
+
+.jumbotron .display-4 {
+  font-family: agency FB;
+  font-weight: 400;
+  color: white;
+}
+
+.jumbotron .lead {
+  font-family: verdana;
+  font-weight: 600;
+  color: white;
+}
+.modal-content{
+  color: white;
+  border:1px solid rgba(130, 130, 130, 1);
+
+  background-color:rgba(179, 179, 179, .5);
+
+}

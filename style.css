@@ -1,0 +1,20 @@
+body {
+    background-color: rgba(0, 0, 0, 0.73);
+    color: white;
+}
+
+.card-hover .reveal {
+    visibility: hidden;
+    opacity: 0;
+}
+
+.card-hover:hover .reveal {
+    height: auto;
+    visibility: visible;
+    opacity: 10;
+    transition: opacity 1s ease;
+}
+
+.nav-tabs .tab-1 .nav-link:not(.active) {
+    color: white;
+}

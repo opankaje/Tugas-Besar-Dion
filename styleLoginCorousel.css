@@ -1,0 +1,32 @@
+.carousel-item{
+    height: 700px;
+}
+#formSetting{
+    height: 280px;
+    width: 400px;
+} 
+body{
+    background-image:url("img/lp.jpg");
+    background-size: cover;
+    overflow: hidden;
+    background-color: rgba(0, 0, 5, 0.69);}
+.center-block{
+    float: center;
+}
+::placeholder {
+    color: black;
+  }
+  
+  :-ms-input-placeholder { /* Internet Explorer 10-11 */
+   color: white;
+  }
+  
+  ::-ms-input-placeholder { /* Microsoft Edge */
+   color: white;
+  }
+
+  @media only screen and (max-width: 768px) { 
+    .jumbotron{
+        height: 300px;
+    }
+ }
